@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  _imgDir: string;
+  constructor(){
+    this._imgDir = './assets/images/logo.png';
+  }
 }
